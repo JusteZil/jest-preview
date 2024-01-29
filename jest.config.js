@@ -22,9 +22,6 @@ module.exports = {
   ],
   modulePaths: ['<rootDir>/src'],
   moduleNameMapper: {
-    '^react-native$': 'react-native-web',
-    // Used to dedupe `styled-component` when run `npm link` in development
-    '^styled-components$': '<rootDir>/node_modules/styled-components',
     // Support import ~
     '^~(.*)': '<rootDir>/node_modules/$1',
   },

@@ -1,12 +1,12 @@
 // @ts-check
 import '@testing-library/jest-dom/extend-expect';
 import { jestPreviewConfigure } from 'jest-preview';
-import './index.css';
-import './assets/_scss/global-style.scss';
+
+import './styles/global.scss';
 
 jestPreviewConfigure({
   autoPreview: true,
-  sassLoadPaths: ['src/assets/_scss/loadPathsExample'],
+  sassLoadPaths: ['src/styles'],
 });
 
 window.matchMedia = (query) => ({

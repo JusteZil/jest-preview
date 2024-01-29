@@ -1,13 +1,12 @@
-# Vite React
+# Jest-preview
+This example demonstrates the usage of `jest-preview` with `vite` and `CSS modules` with `SCSS`.
+The code is based on the example provided in <https://github.com/nvh95/jest-preview/tree/main/examples/vite-react>
 
-This example demonstrates how to use `jest-preview` with `vite`.
+# Running the app
+```
+1. npm install
+2. npm run test:debug
+```
 
-See the full example at <https://github.com/nvh95/jest-preview/tree/main/examples/vite-react>
 
-## Setup jest with vite
 
-If you haven't set up jest with vite yet, you can see how to do it at [Setup Jest with Vite](https://hung.dev/jest-vite) ([repo](https://github.com/nvh95/jest-with-vite)).
-
-## Installation and Usage
-
-Please refer to [Installation](https://www.jest-preview.com/docs/getting-started/installation/) and [Usage](https://www.jest-preview.com/docs/getting-started/usage/).

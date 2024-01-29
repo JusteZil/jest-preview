@@ -1,0 +1,11 @@
+@import 'src/styles';
+// @import '../../styles'; // This works
+
+.button {
+    color: $white-color;
+    background-color: $blue-color;
+    border-color: $blue-color;
+    min-width: 100px;
+    padding: 8px 12px;
+    border-radius: 4px;
+}

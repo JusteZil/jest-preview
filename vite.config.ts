@@ -26,19 +26,12 @@ export default defineConfig(({ mode }) => {
     // If `envWithProcessPrefix` is an empty object, `process.env` will be undefined and the app cannot be loaded
     // Caveat: Cannot access `process.env` in build mode, always use `process.env.VARIABLE_NAME`
     define: envWithProcessPrefix,
-    // Support tilde import
-    resolve: {
-      alias: {
-        '~animate-sass': path.resolve(__dirname, 'node_modules/animate-sass'),
-        '~animate.css': path.resolve(__dirname, 'node_modules/animate.css'),
-      },
-    },
     // Support loadPaths for scss
     css: {
       preprocessorOptions: {
         scss: {
           includePaths: [
-            path.resolve(__dirname, 'src/assets/_scss/loadPathsExample'),
+            path.resolve(__dirname, 'src/styles'),
           ],
         },
       },
